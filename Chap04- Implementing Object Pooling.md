@@ -1,6 +1,6 @@
 ## Implementing Object Pooling
 
-Here you will be walked through the steps in order to learn and visualize how you can implement object pooling in your project.
+Here you will learn about the steps in order to learn and visualize how you can implement object pooling in your project.
 
 Below is the example of pooling the player bullets in a shooter game. 
 
@@ -11,13 +11,13 @@ private static PoolManager _instance;
 public static PoolManager Instance
 {
 	get
-			{
-				if(_instance == null)
-					{
-						Debug.LogError("Pool Manager is Null");
-					}
-					return _instance;
-			}
+		{
+			if(_instance == null)
+				{
+					Debug.LogError("Pool Manager is Null");
+				}
+				return _instance;
+		}
 }
 private void Awake()
 {
