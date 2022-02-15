@@ -8,6 +8,10 @@ This particular course will help you identify object pooling capabilities which 
 
 ![Introduction](https://media.giphy.com/media/HgNwgoeIuByG03WLLt/giphy.gif)
 
+## Object Pooling
+
+Object pooling is where you pre-instantiate all the objects you’ll need at any specific moment before gameplay — for instance, during a loading screen. Instead of creating new objects and destroying old ones during gameplay, your game reuses objects from a “pool".
+
 
 ## Earn Learning points to get more rewards 🎁
 
