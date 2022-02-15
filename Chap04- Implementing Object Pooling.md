@@ -120,6 +120,6 @@ void Hide()
 
 Switching back to Unity, make sure to set all references and the number of initial bullets you want. For example,
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/252b7f52-33db-406b-9452-c50a0d8a8d81/Untitled.png)
+![UnityObjectPooling](Images/Chap4.png)
 
 **Conclusion:** The above practice will allow your game to create a set amount of prefabs and recycle them instead of instantiating multiple prefabs. this will reduce the amount of garbage collection in your game and make it more efficient.
