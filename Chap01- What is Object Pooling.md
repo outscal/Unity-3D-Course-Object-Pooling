@@ -12,4 +12,4 @@ Additionally, Unity uses Garbage Collection to deallocate memory that’s no l
 
 This behaviour is critical in resource-constrained environments such as mobile devices and web builds.
 
-Object pooling is where you pre-instantiate all the objects you’ll need at any specific moment before gameplay — for instance, during a loading screen. Instead of creating new objects and destroying old ones during gameplay, your game reuses objects from a “pool”.
+
